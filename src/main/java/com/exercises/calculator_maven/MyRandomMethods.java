@@ -10,5 +10,14 @@ public class MyRandomMethods {
 	public int randomBetween11and20() {
 		return rd.nextInt(10)+11;
 	}
+	public int randomBetween21and30() {
+		return rd.nextInt(10)+21;
+	}
+	public int randomBetween31and40() {
+		return rd.nextInt(10)+31;
+	}
+	public int randomBetween41and50() {
+		return rd.nextInt(10)+41;
+	}
 
 }
