@@ -4,6 +4,12 @@ import java.util.Random;
 
 public class MyRandomMethods {
 	Random rd = new Random();
+	/* andra satt att ropa method
+	 * public int randomBetween1and10() {
+		int result = 0;
+		result = rd.nextInt(10)+1;
+		return result;
+	}*/
 	public int randomBetween1and10() {
 		return rd.nextInt(10)+1;
 	}
