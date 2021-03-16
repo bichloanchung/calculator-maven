@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class MyRandomMethods {
 	Random rd = new Random();
-	/* andra satt att ropa method
+	/* andra satt att ropa method --rekomendera
 	 * public int randomBetween1and10() {
 		int result = 0;
 		result = rd.nextInt(10)+1;
